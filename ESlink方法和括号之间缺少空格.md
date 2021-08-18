@@ -9,7 +9,9 @@
 ```js
 'space-before-function-paren': 0
 ```
-### 3、安装vetur、eslint插件，修改user配置文件
+### 3、安装vetur、eslint插件，修改user配置文件。
+- 修改完成后代码页会有ESLint的报错提示。
+- 通过ctrl+shift+p，输入ESLint:Fix all auto-fixable Problems，可以自动修复eslint检查出来的错误。
 ```json
 {
     "[vue]": {
